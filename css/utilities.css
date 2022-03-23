@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-image:linear-gradient(#9face6 , #74ebd5 ) ;
+}

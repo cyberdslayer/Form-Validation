@@ -17,7 +17,7 @@
 }
 
 body{
-    background-image: var(--lg-lightcolor), url(Images/nightcity.jpg);
+    /* background-image: var(--lg-lightcolor), url(Images/nightcity.jpg); */
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: var(--myfont);
@@ -130,8 +130,10 @@ body{
     transition: all 1s ease;
 }
 
-.form .btn:hover{
+.form .btn:hover, .btn:focus{
     background: linear-gradient(to right, #74ebd5, #9face6);
+    
+
 }
 
 
